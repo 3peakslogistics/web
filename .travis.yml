@@ -6,7 +6,7 @@ env:
   GO111MODULE=on
 
 install:
-  - go get -u -d github.com/gohugoio/hugo
+  - go get -u github.com/gohugoio/hugo
 
 script:
   - hugo
