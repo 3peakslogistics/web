@@ -2,9 +2,13 @@ language: go
 go:
   - "1.11.x"
 
+env:
+  GO111MODULE=on
+
 install:
   - go get -u -d github.com/gohugoio/hugo
   - cd ${GOPATH}/src/github.com/gohugoio/hugo
+  - go build ./...
   - go install --tags extended
   - cd ${TRAVIS_BUILD_DIR}
 
