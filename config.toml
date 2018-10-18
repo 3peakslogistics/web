@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://3peakslogistics.com"
 languageCode = "en-us"
-title = "Agency"
+title = "3 Peaks Logistics"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -17,9 +17,9 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
-  # email = "your@email.com"
+  name = "3 Peaks Logistics"
+  description = "A premier transportation and freight logistics company in the Pacific Northwest"
+  email = "dispatch@3peakslogistics.com"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -46,38 +46,19 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "3 Peaks Logistics"
     # Optional logo as brand stored in img/
-    #logo = "logo.svg"
-    #services = "Services"
+    logo = "logo.png"
     portfolio = "Services"
     about = "About"
-    team = "Team"
     contact = "Contact"
-
-    # Add custom links. Those can be pre- and postpended to the default menu above.
-    # Use the weight attribute to order your custom links. Uncomment the example
-    # below and replace the values with your own.
-
-    # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
-
-    # postpended links
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
-
 
   # Hero section
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
+    title = ""
+    subtitle = "3 Peaks Logistics"
     buttonText = "Tell me more"
 
 
@@ -128,7 +109,7 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    description = "Lorem ipsum dolor sit amet consectetur."
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
