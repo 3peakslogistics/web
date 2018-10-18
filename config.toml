@@ -109,7 +109,7 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "About"
-    description = "Lorem ipsum dolor sit amet consectetur."
+    description = "3 Peaks Logistics, or 3PL, is a Portland-Metro area based company that was founded in nearly 10 years ago. 3PL provides dedicated multi-faceted transportation and distribution logistics services across the United States. While we may be have the cabailities of some of the largest competitors on the market, we strive to remain the dexterity of a small operation. Our staff is highly skilled in all facets of the logistics and transportation process and have over 4 decades worth of expierence to help provide you with excellent catered service."
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
@@ -223,8 +223,8 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    buttonText = "Send message"
+    subtitle  = "<a href='https://www.google.com/maps/place/3+Peaks+Logistics/@45.376975,-122.75415 9,17z/data=!3m1!4b1!4m5!3m4!1s0x54957262a27bb61b:0x8f29e6f2d13b1c36!8m2!3d45.376975!4d-122.751965' target='_blank'>19824 SW 72nd Ave, Ste 202<br>Tualatin, Oregon</a><br><br><a href='tel:+1-503-783-2 660'>503-783-2660</a>"
+    buttonText = "Submit"
     # netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -245,14 +245,14 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "dispatch@3peakslogistics.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
     #error = "Message could not be send. Please contact us at mail@example.com instead."
 
     [params.contact.captcha]
-      # sitekey = ""
+      sitekey = "6LeaRV4UAAAAALjleg7zYzXxJGi-q3kZ52KxlSgB"
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
@@ -286,24 +286,11 @@ She worked at Pied Piper for years until they went belly up."""
     copyright = "Published under the Apache License 2.0."
 
     [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
-      title = "Twitter"
-
-    [[params.footer.social]]
       icon = "fa-facebook"
-      link = "#"
+      link = "https://www.facebook.com/pg/3-Peaks-Logistics-LP-135082296520470/"
       title = "Facebook"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      link = "#"
+      link = "https://www.linkedin.com/company/3-peaks-logistics"
       title = "LinkedIn"
-
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
-
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
